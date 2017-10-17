@@ -1,0 +1,79 @@
+@charset "utf-8";
+h1 {
+	text-align: center;
+	margin-left: -73px;
+}
+ul img {
+	width: 170px;
+
+
+
+	margin: -29 -29 -29 -29.px
+.px -29 -29
+.px -10.1px -10.1px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin-top: 0px;
+	margin-right: -19px;
+	margin-left: 0px;
+}
+
+
+a.menu  {
+	display: inline;
+	font-size: x-large;
+	text-align: center;
+	background-color: #C8B558;
+	border-width: thin;
+	border-style: solid;
+	text-decoration: none;
+}
+.image {
+	display: inline;
+	-webkit-box-shadow: inset 0px 0px 0px 71px #000000;
+	box-shadow: inset 0px 0px 0px 71px #000000;
+	text-align: left;
+	background-color: #FFFFFF;
+	text-shadow: 0px 0px #000000;
+}
+.video {
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+	text-decoration: none;
+
+}
+.h2 {
+	text-align: center;
+}
+.imgteam {
+	margin-right: 55px;
+	margin-left: -55px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	display: inline-block;
+
+
+}
+.tweeter {
+	text-align: left;
+	margin-left: -373px;
+	margin-top: -236px;
+}
+.footer {
+	text-align: center;
+	padding-bottom: 0px;
+	margin-top: 69px;
+
+
+}
+.menu {
+	text-decoration: none;
+}
+.following {
+	width: 302px;
+	font-size: large;
+
+}

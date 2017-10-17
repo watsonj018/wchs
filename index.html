@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<title>CHS Student News</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<body>
+
+
+
+
+<li><img src="WCHS Pictures/WCHS Front Desk.jpg" width="100%" height="600" alt=""/> </li>
+<ul>  
+	<li><a href="http://chs.citrusschools.org/" class="menu">CHS Home</a></li>
+	<li><a href="staff.html" class="menu">WCHS News Team</a></li>
+	<li><a href="https://twitter.com/wchsnewsch4" class="menu">WCHS Twitter</a></li>
+	<li><a href="http://instagram.com/wchsnews2017" class="menu">WCHS Instagram</a></li>
+	<li><a href="http://facebook.com/chswchsnews" class="menu">WCHS Facebook</a></li>  
+	</ul>
+
+ <h2 class="h2">Today's Video</h2>
+ <div class="video">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<iframe id="youtube_video" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+
+<script>
+var channelID = "UCQ8Lzvb0mSz0p5XAmZoW1zw";
+$.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D'+channelID, function(data) {
+   var link = data.items[0].link;
+   var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+});
+</script> 
+	   </div>
+ 
+  <a class="twitter-timeline" data-width="800" data-link-color="#c8b358" href="https://twitter.com/wchsnewsch4?ref_src=twsrc%5Etfw">Tweets by wchsnewsch4</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<footer class="footer">
+	<a href="https://fspa.wildapricot.org/"><img src="WCHS Pictures/fspa.png" width="300" height="100"/></a>
+	<a href="http://www.baynews9.com/content/news/baynews9/sports/varsity-reporter/citrus-high-school.html"><img src="WCHS Pictures/ss.png"  width="245" height="100" class="image"/></a>
+		
+	</footer>
+	</body>
+	</html>
